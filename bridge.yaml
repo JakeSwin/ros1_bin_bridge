@@ -1,0 +1,5 @@
+topics:
+  -
+    topic: /camera/rgb/image_color
+    type: sensor_msgs/msg/Image
+    queue_size: 1
