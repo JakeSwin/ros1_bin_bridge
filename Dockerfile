@@ -19,4 +19,4 @@ COPY ./bridge.yaml /
 COPY ./fastrtps-profile.xml /
 ENV FASTRTPS_DEFAULT_PROFILES_FILE=/fastrtps-profile.xml
 
-# CMD [ "/ros_entrypoint.sh" ]
+CMD [ "/ros_entrypoint.sh" ]
